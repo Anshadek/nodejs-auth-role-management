@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build directories
+dist/
+build/
+coverage/
+
+# Sequelize auto-generated folders
+src/models/index.js
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Node REPL history
+.node_repl_history
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
